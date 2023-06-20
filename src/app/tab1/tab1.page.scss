@@ -1,0 +1,163 @@
+ion-title {
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10%;
+    background-color: #777; z-index: 4;
+    height: 20px;
+  }
+  ion-card-title{
+    font-size: 1.2rem;
+    margin-top: 2%;
+  }
+  img {
+    border-radius: 8px;
+  }
+  div.polaroid {
+    
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+    color: #000;
+    font-weight: bolder;
+  }
+  
+  //LOGO
+
+  body {
+    font-family: Helvetica;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .site-header { 
+    border-bottom: 1px solid #ccc;
+    padding: .5em 1em;
+    margin-top: 15%;
+  }
+  
+  .site-header::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .site-identity {
+    float: left;
+  }
+  
+  .site-identity h1 {
+    font-size: 11px;
+    margin: .7em 0 .3em 0;
+    display: inline-block;
+    margin-top: 5%;
+  }
+  
+  .site-identity img {
+    max-width: 40px;
+    float: left;
+    margin: 0 10px 0 0;
+  }
+  
+  .site-navigation {
+    float: right;
+  }
+  
+  .site-navigation ul, li {
+    margin: 0; 
+    padding: 0;
+  }
+  
+  .site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+  }
+  
+  //slider
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.slowFade {
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    border-style:groove;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+.slowFade .slide img {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    background: #000;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    opacity: 0;
+    transform: scale(1.5) rotate(0deg);
+    -webkit-animation: slowFade 5s infinite;
+            animation: slowFade 5s infinite;
+}
+.slowFade .slide:nth-child(3) img {
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+}
+.slowFade .slide:nth-child(2) img {
+    -webkit-animation-delay: 16s;
+            animation-delay: 16s;
+}
+.slowFade .slide:nth-child(1) img {
+    -webkit-animation-delay: 24s;
+            animation-delay: 24s;
+}
+@keyframes slowFade {
+    25% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+    40% {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes slowFade {
+    25% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+    40% {
+        opacity: 0;
+    }
+}
+.t{
+  text-align: center;
+}
+ion-card-subtitle{
+  text-align: center;
+}
+.vision{
+  margin-left: 40%;
+}
+.mission{
+  margin-left: 30%;
+}
+.alumni{
+  margin-left: 20%;
+}
+h3{
+  text-align: center;
+  font-family:Helvetica;
+}

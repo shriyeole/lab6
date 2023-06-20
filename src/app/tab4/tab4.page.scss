@@ -1,0 +1,125 @@
+.card {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    background-color: #fff;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .company-name {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .company-details {
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .company-location,
+  .company-salary,
+  .company-profile {
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .company-salary {
+    font-weight: bold;
+  }
+  
+  .company-profile {
+    font-size: 14px;
+  }
+  
+  .profile-links {
+    margin-top: 20px;
+  }
+  
+  .link {
+    display: inline-block;
+    margin-right: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  .card {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    background-color: #fff;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .company-logo img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .company-details {
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .company-location,
+  .company-salary,
+  .company-profile {
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .company-salary {
+    font-weight: bold;
+  }
+  
+  .company-profile {
+    font-size: 14px;
+  }
+  
+  .profile-links {
+    margin-top: 20px;
+  }
+  
+  .link {
+    display: inline-block;
+    margin-right: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .link img {
+    max-width: 20px;
+    height: auto;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  

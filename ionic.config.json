@@ -1,0 +1,7 @@
+{
+  "name": "clgapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
